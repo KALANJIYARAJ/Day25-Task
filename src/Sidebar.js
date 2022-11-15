@@ -37,12 +37,12 @@ function Sidebar() {
       
     {action ? 
       (<li class="nav-item">
-      <a onClick={()=>{
+      <Link onClick={()=>{
         setAction(false)
       }}  class="nav-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
           <i class="fas fa-fw fa-cog"></i>
           <span>Components</span>
-      </a>
+      </Link>
       <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
               <h6 class="collapse-header">Custom Components:</h6>
@@ -52,22 +52,22 @@ function Sidebar() {
       </div>
   </li>) : 
       (<li class="nav-item">
-      <a onClick={()=>{
+      <Link onClick={()=>{
         setAction(true)
       }} class="nav-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           <i class="fas fa-fw fa-cog"></i>
           <span>Components</span>
-      </a>
+      </Link>
   </li>) }
 
   {action1 ? 
       (<li class="nav-item">
-      <a onClick={()=>{
+      <Link onClick={()=>{
         setAction1(false)
       }}  class="nav-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
           <i className="fas fa-fw fa-wrench"></i>
           <span>Utilities</span>
-      </a>
+      </Link>
       <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
       <div className="bg-white py-2 collapse-inner rounded">
             <h6 className="collapse-header">Custom Utilities:</h6>
@@ -89,12 +89,12 @@ function Sidebar() {
      
   </li>) : 
       (<li class="nav-item">
-      <a onClick={()=>{
+      <Link onClick={()=>{
         setAction1(true)
       }} class="nav-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           <i className="fas fa-fw fa-wrench"></i>
           <span>Utilities</span>
-      </a>
+      </Link>
   </li>) }
 
       <hr className="sidebar-divider" />
@@ -103,12 +103,12 @@ function Sidebar() {
 
       {action2 ? 
       (<li class="nav-item">
-      <a onClick={()=>{
+      <Link onClick={()=>{
         setAction2(false)
       }}  class="nav-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
         <i className="fas fa-fw fa-folder"></i>
           <span>Pages</span>
-      </a>
+      </Link>
       <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
       <div className="bg-white py-2 collapse-inner rounded">
             <h6 className="collapse-header">Login Screens:</h6>
@@ -135,12 +135,12 @@ function Sidebar() {
      
   </li>) : 
       (<li class="nav-item">
-      <a onClick={()=>{
+      <Link onClick={()=>{
         setAction2(true)
       }} class="nav-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
          <i className="fas fa-fw fa-folder"></i>
           <span>Pages</span>
-      </a>
+      </Link>
   </li>) }
 
       <li className="nav-item">
