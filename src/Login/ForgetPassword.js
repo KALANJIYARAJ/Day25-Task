@@ -33,7 +33,7 @@ function ForgetPassword() {
                                 </form>
                                 <hr/>
                                 <div class="text-center">
-                                    <Link class="small" to={"register"} >Create an Account!</Link>
+                                    <Link class="small" to={"/register"} >Create an Account!</Link>
                                 </div>
                                 <div class="text-center">
                                     <Link class="small" to={"/"}>Already have an account? Login!</Link>
