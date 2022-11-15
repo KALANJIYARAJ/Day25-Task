@@ -118,7 +118,7 @@ function Sidebar() {
             <Link className="collapse-item" to={"/register"}>
               Register
             </Link>
-            <Link className="collapse-item" to={"/forgotpassword"}>
+            <Link className="collapse-item" to={"/forgetpassword"}>
               Forgot Password
             </Link>
             <div className="collapse-divider"></div>
