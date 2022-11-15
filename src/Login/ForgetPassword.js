@@ -27,16 +27,16 @@ function ForgetPassword() {
                                             id="exampleInputEmail" aria-describedby="emailHelp"
                                             placeholder="Enter Email Address..."/>
                                     </div>
-                                    <a href="/" class="btn btn-primary btn-user btn-block">
+                                    <Link to={"/"} class="btn btn-primary btn-user btn-block">
                                         Reset Password
-                                    </a>
+                                    </Link>
                                 </form>
                                 <hr/>
                                 <div class="text-center">
-                                    <a class="small" href="/register">Create an Account!</a>
+                                    <Link class="small" to={"register"} >Create an Account!</Link>
                                 </div>
                                 <div class="text-center">
-                                    <a class="small" href="/">Already have an account? Login!</a>
+                                    <Link class="small" to={"/"}>Already have an account? Login!</Link>
                                 </div>
                             </div>
                         </div>

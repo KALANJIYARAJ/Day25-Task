@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Resister() {
   return (
@@ -39,23 +40,23 @@ function Resister() {
                                         id="exampleRepeatPassword" placeholder="Repeat Password"/>
                                 </div>
                             </div>
-                            <a href="/" class="btn btn-primary btn-user btn-block">
+                            <Link  to={"/"} class="btn btn-primary btn-user btn-block">
                                 Register Account
-                            </a>
+                            </Link >
                             <hr/>
-                            <a href="/" class="btn btn-google btn-user btn-block">
+                            <Link to={"/"} class="btn btn-google btn-user btn-block">
                                 <i class="fab fa-google fa-fw"></i> Register with Google
-                            </a>
-                            <a href="/" class="btn btn-facebook btn-user btn-block">
+                            </Link >
+                            <Link  to={"/"} class="btn btn-facebook btn-user btn-block">
                                 <i class="fab fa-facebook-f fa-fw"></i> Register with Facebook
-                            </a>
+                            </Link >
                         </form>
                         <hr/>
                         <div class="text-center">
-                            <a class="small" href="/forgetpassword">Forgot Password?</a>
+                            <Link  class="small" to={"/forgetpassword"}>Forgot Password?</Link >
                         </div>
                         <div class="text-center">
-                            <a class="small" href="/">Already have an account? Login!</a>
+                            <Link class="small" to={"/"}>Already have an account? Login!</Link>
                         </div>
                     </div>
                 </div>

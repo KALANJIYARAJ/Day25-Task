@@ -115,20 +115,20 @@ function Sidebar() {
             <Link to={"/"} className="collapse-item">
               Login
             </Link>
-            <a className="collapse-item" href="/register">
+            <Link className="collapse-item" to={"/register"}>
               Register
-            </a>
-            <a className="collapse-item" href="/forgotpassword">
+            </Link>
+            <Link className="collapse-item" to={"/forgotpassword"}>
               Forgot Password
-            </a>
+            </Link>
             <div className="collapse-divider"></div>
             <h6 className="collapse-header">Other Pages:</h6>
-            <a className="collapse-item" href="/portal/err404">
+            <Link className="collapse-item" to={"/portal/err404"}>
               404 Page
-            </a>
-            <a className="collapse-item" href="/portal/blank">
+            </Link>
+            <Link className="collapse-item" to={"/portal/blank"}>
               Blank Page
-            </a>
+            </Link>
           </div>
       </div>
         

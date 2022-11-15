@@ -40,19 +40,19 @@ function Login() {
                                         Login
                                     </Link>
                                     <hr/>
-                                    <a href="/portal/dashboard" class="btn btn-google btn-user btn-block">
+                                    <Link  to={"/portal/dashboard"} class="btn btn-google btn-user btn-block">
                                         <i class="fab fa-google fa-fw"></i> Login with Google
-                                    </a>
-                                    <a href="/portal/dashboard" class="btn btn-facebook btn-user btn-block">
+                                    </Link >
+                                    <Link  to={"/portal/dashboard"} class="btn btn-facebook btn-user btn-block">
                                         <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
-                                    </a>
+                                    </Link >
                                 </form>
                                 <hr/>
                                 <div class="text-center">
-                                    <a class="small" href="/forgetpassword">Forgot Password?</a>
+                                    <Link class="small" to={"/forgetpassword"}>Forgot Password?</Link>
                                 </div>
                                 <div class="text-center">
-                                    <a class="small" href="/register">Create an Account!</a>
+                                    <Link class="small" to={"/register"}>Create an Account!</Link>
                                 </div>
                             </div>
                         </div>
