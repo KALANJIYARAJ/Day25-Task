@@ -8,8 +8,6 @@ import Dashboard from "./Dashboard";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Tables from "./Tables";
 import Charst from "./Charst";
-import { UserContext } from "./UserContext";
-import { useContext } from "react";
 import Login from "./Login/Login";
 import PortalLayout from "./PortalLayout";
 import Resister from "./Login/Resister";
@@ -25,7 +23,7 @@ import Cards from "./Components/Cards";
 
 
 function App() {
-  const {user} = useContext(UserContext)
+
   return (
     <BrowserRouter>
             <Routes>
